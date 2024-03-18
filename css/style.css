@@ -183,7 +183,7 @@ input:focus{
 }
 
 .section-2 {
-    width: 350px;
+    width: 400px;
     padding-top: 20px;
     padding-right: 18px;
 }
@@ -362,12 +362,11 @@ input:focus{
     background-color: #ddd;
   }
   
-  .progress-bar {
+.progress-bar {
     height: 100%;
     background-color: #acd1f3;
-    display: inline;
     transition: width 0.5s ease-in-out;
-  }
+}
 
 
 .head-2 {
@@ -451,4 +450,51 @@ input:focus{
 
 .fa-magnifying-glass {
     cursor: pointer;
+}
+
+.task-card {
+    margin-top: 30px;    
+}
+
+.task-card h3 {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.task-detail {
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 3px 2px 10px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 7px;
+    margin-bottom: 20px;
+}
+
+.task-detail p {
+    padding-bottom: 5px;
+    color: #a9a9a9;
+}
+
+.task-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-title i {
+    color: #6e6666;
+    margin-left: 5px;
+}
+
+.task-title h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.level {
+    border: 0px solid transparent;
+    width: fit-content;
+    padding: 0px 10px;
+    background-color: #FDF8D8;
+    color: #cabe89;
+    border-radius: 20px 20px;
 }

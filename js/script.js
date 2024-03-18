@@ -34,7 +34,7 @@ function createProgressBars() {
 
     projectRows.forEach(row => {
         const completedTasksCell = row.querySelector('.task-ratio h3');
-        const progressBarContainer = row.querySelector('.progress');
+        const progressBarContainer = row.querySelector('.progress-bar-container');
         const progressBar = document.createElement('div');
         progressBar.classList.add('progress-bar');
         progressBarContainer.appendChild(progressBar);
